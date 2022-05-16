@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.bgcOff {
+  background-color: black;
+}
+.bgcOn {
+  background-color: rgb(138, 136, 105);
+}
+
+#container {
+  height: 50vh;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 50%;
+}
+img {
+  width: 20%;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+button {
+  text-transform: uppercase;
+  background: transparent;
+  color: black;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  font-size: 1.5rem;
+  border: 2px solid #222222;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin: 0.5rem;
+  width: 200px;
+  margin: 30px auto;
+  position: absolute;
+  left: 41%;
+}
+button:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(195, 228, 50);
+}
